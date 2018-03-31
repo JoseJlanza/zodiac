@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>Zodiac</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Trade+Winds" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+            <div>
+              <div class="form-group">
+                <h1>Enter Your Horoscope sign</h1>
+              </div>
+
+             
+
+              <div class="form-group">
+                <input id="userdata" class="form-control">
+              </div>
+              <div class="form-group">
+                <!-- runs the funtion line 66 main.js -->
+                <button type="button" onclick="horoscope()" class="btn btn-primary btn-lg">Find Sign</button>
+              </div>
+            </div>
+
+            <div>
+              <h1 id="yourSign"></h1>            
+              <img id="icon" src="">
+              <h2 id= "yourHoroscope"></h2>
+               <p id="yourWeakness"></p> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+           
+      
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+ <!-- This connects my JS external file to the index.html -->
+<script src="js/main.js" type="text/javascript"></script>
+
+    </body>
+</html>

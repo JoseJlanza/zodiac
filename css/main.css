@@ -1,0 +1,23 @@
+body {
+	background-color: purple;
+	color: white;
+}
+h1 {
+	font-family: 'Trade Winds', cursive;
+}
+
+#yourHoroscope {
+	font-family: 'Cabin Sketch', cursive;
+	color: red;
+}
+
+#yourSign {
+	font-size: 50px;
+	font-family: 'Faster One', cursive;
+	color: gold;
+}
+
+#yourWeakness {
+	font-size: 20px;
+	font-family: 'Permanent Marker', cursive;
+}
